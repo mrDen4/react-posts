@@ -11,7 +11,7 @@ export default function PostForm({create}) {
             ...post, id: Date.now()
         }
         create(newPost)
-        setPost({title: '', text: ''})
+        setPost({title: '', body: ''})
         }
     return (
         <form className='form form--create' onSubmit={addNewPost}>

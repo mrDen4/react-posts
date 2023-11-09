@@ -5,7 +5,7 @@ import MySelect from './UI/select/MySelect';
 const PostFilter = ({filter, setFilter}) => {
     const options = [
         {value: 'title', name: 'По названию'},
-        {value: 'text', name: 'По тексту'}
+        {value: 'body', name: 'По тексту'}
       ]
 
     return (

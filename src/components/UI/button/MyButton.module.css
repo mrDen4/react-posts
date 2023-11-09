@@ -3,4 +3,10 @@
     background: rgb(138, 138, 255);
     border: none;
     color: #fff;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: .5;
 }

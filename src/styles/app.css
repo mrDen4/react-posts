@@ -79,3 +79,12 @@
 .form__inp {
   margin-bottom: 20px;
 }
+
+.loader {
+  display: flex;
+  justify-content: center;
+}
+
+.page-active {
+  opacity: .5;
+}
